@@ -1,0 +1,844 @@
+body {
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 26px;
+}
+
+a:hover {
+    text-decoration: none!important;
+    color: #901D57;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+#footer {
+    background-color: #029ef3
+}
+
+#header #logo {
+    font-size: 30px!important;
+    /* text-align: center!important; */
+}
+
+#header #user-logged-in {
+    top: 1px;
+    right: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    /* display: block; */
+}
+
+ul#main-menu {
+    text-align: center;
+    background-color: #029ef3
+}
+
+ul#main-menu li {
+    display: inline-block;
+}
+
+ul#main-menu li a {
+    padding: 8px 15px;
+    color: #fff;
+    display: block;
+}
+
+#content {
+    min-height: 600px;
+    padding: 20px 0px;
+}
+
+#footer {
+    color: #fff;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+
+/* ==========LOGIN========== */
+
+#wp-login h1,
+#wp-reg h1 {
+    color: #E874DC!important;
+    font-family: 'Italianno', cursive;
+}
+
+.btn-pink {
+    background-color: #FCDCF4;
+    color: #ce41c0;
+}
+
+.text-pink {
+    color: #E64692;
+}
+
+.text-FAD6E6 {
+    color: #FAD6E6;
+}
+
+.border-pink {
+    border: 2px solid #E64692!important;
+    border-top: 0!important;
+    border-left: 0!important;
+    border-right: 0!important;
+}
+
+@media screen and (max-width:768px) {
+    #login-img {
+        display: none;
+    }
+}
+
+
+/* END LOGIN */
+
+
+/* =============SIGN UP============== */
+
+
+/* END SIGN UP */
+
+
+/* =============RESET PASSWORD=============  */
+
+#wp-reset h1 {
+    display: block!important;
+    color: #E874DC!important;
+    font-family: 'Italianno', cursive;
+}
+
+#wp-reset {
+    height: auto!important;
+    width: 70%!important;
+}
+
+@media screen and (max-width:768px) {
+    #reset-img {
+        display: none;
+    }
+    #wp-reset {
+        height: auto!important;
+        width: auto!important;
+        margin-left: 0px!important;
+    }
+}
+
+
+/* ===========NEW PASSWORD========== */
+
+#wp-newpass h2 {
+    display: block!important;
+    color: #E874DC!important;
+    font-family: 'Italianno', cursive;
+}
+
+#wp-newpass {
+    height: auto!important;
+    width: 70%!important;
+}
+
+@media screen and (max-width:768px) {
+    #newpass-img {
+        display: none;
+    }
+    #wp-newpass {
+        height: auto!important;
+        width: auto!important;
+        margin-left: 0px!important;
+    }
+}
+
+
+/* ===================TRANG CHỦ GV ================= */
+
+.vertical-nav {
+    min-width: 23rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+
+
+/* for toggle behavior */
+
+#sidebar {
+    margin-left: -23rem;
+    z-index: 1000;
+}
+
+#content.active {
+    width: 100%;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -23rem;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.text-gray {
+    color: #aaa;
+}
+
+
+/*============ MAIN CLASSES =============*/
+
+
+/* ----Header---- */
+
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1300px;
+    }
+}
+
+.bg-pink {
+    background-color: #FAD6E6;
+}
+
+.bg-pink-light {
+    background-color: #F7EBF4;
+}
+
+#main-logo {
+    font-family: 'Audiowide', cursive;
+    top: 5px;
+}
+
+.btn-outline-search {
+    color: #E64692;
+    border-color: #E64692;
+}
+
+.btn-outline-search:hover {
+    color: #fff;
+    background-color: #901D57;
+    border-color: #901D57;
+}
+
+
+/* ----------Search Course Bar---------- */
+
+#search-course {
+    right: 22%;
+    top: 20px;
+}
+
+#search-course input {
+    color: #E64692!important;
+}
+
+#search-course input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #E64692;
+    opacity: 1;
+    /* Firefox */
+}
+
+#search-course input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #E64692;
+}
+
+#search-course input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #E64692;
+}
+
+
+/* ----------User Heading---------- */
+
+#user-heading {
+    display: inline!important;
+    right: 3%;
+    color: #E64692!important;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+#user-heading:hover {
+    color: #901D57!important;
+}
+
+.dropdown-menu.show {
+    top: 12px!important;
+    left: 17px!important;
+    background-color: #fff;
+}
+
+.dropdown-menu.show:hover {
+    top: 12px!important;
+    left: 17px!important;
+    background-color: #E64692;
+}
+
+.dropdown-menu>a {
+    color: #E64692!important;
+}
+
+.dropdown-toggle:after {
+    display: none
+}
+
+
+/* -----Responsive Heading----- */
+
+@media (max-width: 798px) {
+    #header {
+        padding: 20px 10px 0px 20px!important;
+    }
+    #header #sidebarCollapse {
+        margin-bottom: 20px;
+    }
+    #header #main-logo {
+        margin-top: 10px;
+        margin-left: 25px!important;
+    }
+    .search-course-sidebar {
+        display: block!important;
+    }
+    #sidebar .log-out-sidebar {
+        display: block!important;
+    }
+    #user-heading,
+    #search-course {
+        display: none!important;
+    }
+    #create-course h4 {
+        font-size: 20px!important;
+    }
+}
+
+@media (max-width: 1168px) {
+    #search-course {
+        display: none!important;
+    }
+    .search-course-sidebar {
+        display: block!important;
+    }
+    #create-course h4 {
+        font-size: 20px!important;
+    }
+}
+
+
+/* -------Class card--------- */
+
+.card {
+    box-shadow: 5px 5px 15px rgba(255, 87, 241, 0.438);
+}
+
+.card a>h2 {
+    height: 50%;
+}
+
+.card-img-overlay {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 250px;
+    left: 0 !important;
+    padding: 1.25rem !important;
+    border-radius: calc(.25rem - 1px) !important;
+}
+
+.card-deck img {
+    height: 120px;
+}
+
+#class-name {
+    height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    /* để ẩn đi nếu tên lớp quá dài*/
+    text-overflow: ellipsis
+}
+
+#class-name:hover {
+    text-decoration: underline !important;
+}
+
+#card-content,
+#card-course {
+    height: 110px !important;
+    background-color: #F7EBF4;
+    padding: 0px!important;
+}
+
+.card-footer {
+    background-color: #FAD6E6!important;
+}
+
+.btn-edit {
+    color: #901D57;
+    border-color: #901D57;
+}
+
+.btn-edit:hover {
+    color: #FAD6E6;
+    background-color: #901D57;
+    border-color: #901D57;
+}
+
+.btn-delete {
+    color: #FAD6E6;
+    background-color: #901D57;
+}
+
+.btn-delete:disabled:hover {
+    background-color: #901D57;
+    color: #FAD6E6;
+}
+
+.btn-delete:hover {
+    color: #901D57;
+    background-color: #fdc8f7;
+    border-color: #901D57;
+}
+
+.class-item {
+    border-radius: 10rem !important;
+}
+
+#class-name {
+    color: #FAD6E6!important;
+}
+
+
+/* -----SideBar -----*/
+
+#sidebar {
+    background-color: #FAD6E6!important;
+}
+
+#sidebar-header {
+    background-color: #fdb6d6!important;
+    color: #901D57!important;
+}
+
+#sidebar-class a {
+    background-color: #fac7de!important;
+    color: #6B0E3D!important;
+}
+
+#sidebar-class a:hover {
+    background-color: #E64692!important;
+    color: #6B0E3D!important;
+}
+
+.sidebar-close {
+    top: 30%;
+    right: 8%;
+}
+
+
+/* ------Create Course----- */
+
+#create-course {
+    border: 1px solid #E64692;
+    color: #E64692;
+    padding: 10px 0px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(255, 87, 241, 0.438);
+}
+
+#create-course:hover {
+    background-color: #FAD6E6;
+    color: #901D57 !important;
+    text-decoration: none!important;
+}
+
+
+/* -----Add Course----- */
+
+
+/* #class-img {
+background-color: #E874DC!important;
+} */
+
+@media screen and (max-width:968px) {
+    #add-course-thumb {
+        display: none;
+    }
+    #add-course {
+        width: 100%!important;
+    }
+}
+
+.alert-success {
+    color: #901D57!important;
+    background-color: #fac7de!important;
+    border-color: #E64692!important;
+    border-radius: 35px!important;
+}
+
+
+/* ----Modal delete----- */
+
+.modalDelete {
+    color: #901D57;
+}
+
+.modalDelete p>b {
+    color: #6B0E3D !important;
+}
+
+#deleteCourseLabel {
+    color: #901D57;
+    font-weight: bold;
+}
+
+#btn-exist {
+    border: none!important;
+    background-color: #F7EBF4!important;
+}
+
+#delete-course-template {
+    background-color: #cccbcb31!important;
+}
+
+
+/* ===========IN CLASS========= */
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 19px;
+    width: 19px;
+    border-radius: 3px;
+    background-color: #fac7de;
+    border: 1px solid #901D57;
+}
+
+.checkbox-container input:checked~.checkmark {
+    background-color: #E64692;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 6px;
+    height: 11px;
+    border: solid#fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/* END CHECKBOX CUSTOM */
+
+#in-class,
+#lesson {
+    font-size: 18px!important;
+}
+
+#in-class a,
+.return-class {
+    color: #901D57 !important;
+}
+
+#in-class a:hover,
+.return-class:hover {
+    color: #E64692 !important;
+}
+
+#in-class #list-students .row {
+    color: #901D57 !important;
+}
+
+.nav-bar-custom {
+    /* background: #488cf6!important; */
+    border-color: #ce41c0 !important;
+}
+
+.nav-bar-custom a {
+    color: #E874DC;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #E64692;
+    background-color: #FCEEF4;
+    border-bottom: none;
+}
+
+@media screen and (max-width:968px) {
+    #add-lesson-thumb {
+        display: none;
+    }
+    #add-student-thumb {
+        display: none;
+    }
+}
+
+
+/* =====List Student===== */
+
+.table-pink {
+    background-color: #F7EBF4!important;
+    color: #6B0E3D!important;
+}
+
+.table-pink thead {
+    background-color: #FAD6E6 !important;
+}
+
+#list-students .custom-select {
+    display: inline-block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    vertical-align: middle;
+    background-color: #FAD6E6!important;
+    color: #6B0E3D!important;
+    font-weight: bold!important;
+    border: 1px solid #6B0E3D;
+}
+
+.th1 {
+    width: 6%!important;
+}
+
+.th2 {
+    width: 28%!important;
+}
+
+.th3 {
+    width: 16%!important;
+}
+
+.th4 {
+    width: 36%!important;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    max-height: 500px!important;
+    overflow-y: auto;
+}
+
+.f {
+    display: block;
+}
+
+.collapse.in,
+.collapse {
+    height: 680px;
+    overflow-y: scroll;
+}
+
+
+/* =========CUSTOM RADIO============== */
+
+
+/* The radio-container */
+
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.radio-checkmark {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    height: 25px;
+    width: 25px;
+    background-color: #fac7de!important;
+    border: 1px solid #901D57!important;
+    border-radius: 50%;
+}
+
+.radio-container:hover input~.radio-checkmark {
+    background-color: #ff8cf4e5!important;
+}
+
+.radio-container input:checked~.radio-checkmark {
+    background-color: #2196F3;
+}
+
+.radio-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-container input:checked~.radio-checkmark:after {
+    display: block;
+}
+
+.radio-container .radio-checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 11px;
+    height: 11px;
+    border-radius: 60%;
+    background: #901D57;
+}
+
+
+/* End radio custom */
+
+.th11 {
+    width: 5%;
+}
+
+.th22 {
+    width: 26%;
+}
+
+.th33 {
+    width: 15%;
+}
+
+.th44 {
+    width: 37%;
+}
+
+
+/* ========ADMIN VIEW======= */
+
+#admin-view {
+    font-size: 18px!important;
+    /* color: #f000!important; */
+}
+
+
+/* ----Phân Trang---- */
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #E64692!important;
+    background-color: #fff!important;
+    border: 1px solid #E64692!important;
+    border-radius: 25px!important;
+    margin-right: 10px!important;
+}
+
+.page-item.active .page-link {
+    z-index: 3!important;
+    color: #fff!important;
+    background-color: #901D57!important;
+    border-color: #901D57!important;
+}
+
+.page-item.disabled .page-link {
+    color: #b3aeb0!important;
+    background-color: #fff!important;
+    border-color: #b3aeb0!important;
+}
+
+#table_all_teacher {
+    max-height: 550px;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+.text-901D57 {
+    color: #901D57!important;
+}
+
+.table-absent {
+    max-width: 1269px;
+    overflow: auto;
+}
+
+.class-cover-photo {
+    border-radius: 18px;
+}
+
+.class-cover-photo>img {
+    border-radius: 18px;
+    min-height: 150px!important;
+    max-height: 270px!important;
+    width: 100%;
+}
+
+@media (max-width: 998px) {
+    .class-cover-photo .card-img-overlay {
+        margin: 0px!important;
+        font-size: smaller;
+    }
+    .class-cover-photo h1 {
+        /* margin: 0px!important; */
+        font-size: 30px;
+        /* font-weight: 500; */
+        overflow: hidden!important;
+        text-overflow: ellipsis!important;
+        white-space: nowrap!important;
+    }
+    .class-cover-photo h3 {
+        /* margin: 0px!important; */
+        font-size: 20px;
+    }
+}
