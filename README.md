@@ -7,8 +7,10 @@
   Bước 3: (Optional) Nếu người dùng đã thay đổi port ở localhost thì vào đường dẫn source_code/config/config.php để thêm port vào đường dẫn gốc
 
   Bước 4: Copy thư mục source_code vào trong thư mục htdoc. Truy cập vào localhost và tìm chọn thư mục source_code để vào giao diện đăng nhập.
+  
+2. Có thể truy cập qua tên miền: http://tdtuclassroom-tlm.epizy.com/
 
-2. TÀI KHOẢN ĐĂNG NHẬP
+3. TÀI KHOẢN ĐĂNG NHẬP
 
   ------Tài khoản admin-------
   
@@ -23,3 +25,5 @@
   Email: tantai247@gmail.com 
   
   Password: 11111111 (8 số 1)
+  
+4. Do đây là project đầu tay dùng PHP nên còn nhiều bugs, nhưng mà nhìn chung vẫn ổn hihi :>
